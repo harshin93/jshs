@@ -1,0 +1,238 @@
+/* Heading Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #212529;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.logo{
+  height: auto;
+  font-size: large;
+  font-family: 'Unbounded', cursive;
+  font-weight: 800;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+nav a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #212529;
+
+}
+
+/* Landing Section */
+
+.landingSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 20px;
+}
+.landingSection > img {
+  height: 80%;
+  width: 80%;
+  padding: 20px;
+}
+.landingSection > h1 {
+  color: #212529;
+  font-family: 'Alfa Slab One', cursive;
+  text-align: center;
+  font-weight: 900;
+  font-size: 3.2em;
+}
+.landingSection > h1 > span {
+  color: #fca311;
+}
+
+.searchSection > form {
+  border: 1px #212529 solid;
+  border-radius: 6px;
+  height: auto;
+  width: auto;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  background-color: #e5e5e5;
+}
+
+.searchSection > label {
+  color: #212529;
+  font-family: 'PT Sans Caption', sans-serif;
+  padding: 20px;
+  font-weight: 700;
+}
+
+.searchSection > input {
+  border-radius: 6px;
+  height: 30%;
+  padding: 8px;
+}
+
+.searchSection > button {
+  border-radius: 6px;
+  height: 30%;
+  padding: 8px; 
+  margin: 10px;
+}
+
+div.result > div > span {
+  color: black;
+}
+
+div.result > h1 {
+  color: black;
+}
+
+/* login page */
+.login > label{
+  color: #212529;
+  font-family: 'PT Sans Caption', sans-serif;
+  padding: 20px;
+  font-weight: 700;
+}
+
+.login > input {
+  margin-top: 1%;
+  border-radius: 6px;
+  height: 30%;
+  padding: 8px;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+}
+
+.login > button {
+  
+  border-radius: 6px;
+  height: 30%;
+  padding: 8px; 
+  margin: 10px;
+}
+
+.userInfo-container {
+  
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  
+}
+
+.userInfo-container > label {
+  
+  color: #212529;
+  font-family: 'PT Sans Caption', sans-serif;
+  padding: 20px;
+  font-weight: 700;
+}
+
+.userInfo-container > input {
+  
+  margin-bottom: 10px;
+  border-radius: 6px;
+  height: 30%;
+  padding: 8px;
+}
+
+.userInfo-container > button{
+  border-radius: 6px;
+  height: 30%;
+  padding: 8px; 
+  margin: 10px;
+}
+
+
+/*sign up page*/
+
+.signup > label{
+  color: #212529;
+  font-family: 'PT Sans Caption', sans-serif;
+  padding: 20px;
+  font-weight: 700;
+}
+
+.signup > input{
+  
+  border-radius: 6px;
+  height: 30%;
+  padding: 8px;
+}
+
+.signup > button {
+  
+  border-radius: 6px;
+  height: 30%;
+  padding: 8px; 
+  margin: 20px;
+}
+
+.signup{
+  
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.signup > p{
+  color: black;
+}
+
+.signup > select {
+  border-radius: 6px;
+  margin-bottom: 30px;
+  height: 30%;
+  padding: 8px;
+}
+
+.inputBox > input{
+  border-radius: 6px;
+  margin-bottom: 30px;
+  height: 30%;
+  padding: 8px;
+}
+
+.inputBox > button {
+  border-radius: 6px;
+  height: 30%;
+  padding: 8px; 
+  margin: 20px;
+}
+
+.inputBox > textarea {
+  border-radius: 6px;
+  margin-bottom: 30px;
+  height: 30%;
+  padding: 8px;
+}
+
+.ContactUs{
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
